@@ -15,9 +15,20 @@
     "eslint": "^8.13.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
-    "lint-staged": "^12.3.7",
+    "lint-staged": "^12.3.8",
     "prettier": "^2.6.2"
   },
+  "overrides": {
+    "commitizen": {
+      "inquirer": "8.2.0",
+      "minimist": "1.2.6"
+    }
+  },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
