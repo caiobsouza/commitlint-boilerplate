@@ -1,0 +1,9 @@
+{
+  "*.+(js|jsx|ts|tsx)": [
+    "eslint",
+    "npm test -- --passWithNoTests"
+  ],
+  "*.+(js|json|jsx|ts|tsx)": [
+    "prettier --write"
+  ]
+}
